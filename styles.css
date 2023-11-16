@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+input {
+    padding: 8px;
+    margin: 8px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+/**********/
+
+.result-success {
+    font-size: 20px;
+    color: black
+}
+
+.result-error {
+    font-size: 20px;
+    color: red
+}
